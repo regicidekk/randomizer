@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://season-travel.com/wp-content/uploads/2022/09/gran-tur-vsya-kareliya-i-severnoe-safari.jpg);
+}
+
+.window {
+  background-color: #ffffff;
+  border-radius: 3vh;
+  padding: 5vh;
+  border: 1vh solid black;
+  display: flex;
+  width: 70vh;
+  height: 31vh;
+}
+
+.result {
+  background-color: #87CEFA;
+  padding: 5px;
+  padding-top: 17%;
+  margin-left: 5vh;
+  width: 47vh;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 3vh;
+  border: 0.3vh solid black
+}
+
+button{
+  margin-top: 3vh;
+  background-color: #1C6EAA;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  text-align: center;
+  color: #f0f0f0;
+  border: 0.3vh solid black;
+  border-radius: 1vh;
+}
