@@ -15,16 +15,32 @@ body {
   padding: 5vh;
   border: 1vh solid black;
   display: flex;
+  justify-content: space-around;
   width: 70vh;
   height: 31vh;
+}
+
+.settings {
+  margin-top: 1%;
+}
+
+.settings h3{
+  margin-top: 1vh;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4vh;
+}
+
+.settings p{
+  font-size: 19px;
 }
 
 .result {
   background-color: #87CEFA;
   padding: 5px;
   padding-top: 17%;
-  margin-left: 5vh;
   width: 47vh;
+  margin-left: 5vh;
   box-sizing: border-box;
   text-align: center;
   border-radius: 3vh;
